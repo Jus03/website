@@ -1,0 +1,41 @@
+.navbar-main{
+
+   display: grid;
+   grid-template-columns: auto 1fr;
+
+    .name{
+        color: black;
+    }
+
+   .logo-main{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+   }
+   .menu-main{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   }
+   ul{
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+   }
+   li{
+    margin-left: 10px;
+    color: black;
+   }
+   a{
+    text-decoration: none;
+    
+   }
+   a:hover{
+    color: white;
+    text-decoration: underline;
+    
+   }
+}
+

@@ -1,0 +1,99 @@
+.first-main{
+    background-color: blue;
+
+    display: grid;
+    grid-template-columns: 40% 1fr;
+ 
+ 
+ 
+    .left-main{
+     background-color: yellow;
+     position: relative;
+     .me{
+        border-radius: 55%;
+        object-fit: cover;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 50px;
+        background-color: black;
+        left: 150px;
+     }
+     .title {
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
+        position: absolute;
+        top: 260px;
+        left: 190px;
+    }
+    span{
+        display: block;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+    p{
+        font-size: 11px;
+        margin-top: 0;
+        margin-left: 3px;
+    }
+    }
+    .right-main{
+     background-color: khaki;
+     position: relative;
+    line-height: 1;
+    padding-left: 30px;
+    padding-top: 30px;
+    }
+    h2{
+        display: inline-block;
+        margin-bottom: 2px;
+        
+    }
+    p{
+        display: block;
+        margin-top: 0;
+    }   
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        
+    }
+    span{
+        text-align: center;
+    }
+    .circle-container{
+        display: flex;
+        gap: 10px;
+    }
+    .circle, .circle-2, .circle-3{
+        background-color: #DC6F6F;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .circle{
+        background-color: #DC6F6F;
+    }
+    .circle-2{
+        background-color: #6AC1D4;
+    }
+    .circle-3{
+        background-color: lightpink;
+    }
+    .about{
+        font-size: 12px;
+        margin-top: 30px;
+        line-height: 1.6    ;
+    }
+ }
+ 
+ 

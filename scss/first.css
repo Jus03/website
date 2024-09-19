@@ -1,0 +1,92 @@
+.first-main {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.first-main .left-main {
+  background-color: gray;
+  position: relative;
+}
+.first-main .left-main .me {
+  border-radius: 55%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  background-color: black;
+  left: 150px;
+border: #fff 10px rebeccapurple;
+}
+.first-main .left-main .title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  position: absolute;
+  top: 260px;
+  left: 190px;
+}
+.first-main .left-main span {
+  display: block;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.first-main .left-main p {
+  font-size: 11px;
+  margin-top: 0;
+  margin-left: 3px;
+}
+.first-main .right-main {
+  background-color: grey;
+  position: relative;
+  line-height: 1;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.first-main h2 {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.first-main p {
+  display: block;
+  margin-top: 0;
+}
+.first-main a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.first-main span {
+  text-align: center;
+}
+.first-main .circle-container {
+  display: flex;
+  gap: 10px;
+}
+.first-main .circle, .first-main .circle-2, .first-main .circle-3 {
+  background-color: #DC6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.first-main .circle {
+  background-color: #DC6F6F;
+}
+.first-main .circle-2 {
+  background-color: #6AC1D4;
+}
+.first-main .circle-3 {
+  background-color: lightpink;
+}
+.first-main .about {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 1.6;
+}/*# sourceMappingURL=first.css.map */

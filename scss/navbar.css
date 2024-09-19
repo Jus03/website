@@ -1,0 +1,35 @@
+.navbar-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.navbar-main .name {
+  color:black;
+}
+.navbar-main .logo-main {
+ background-color:gray;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+.navbar-main .menu-main {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-main ul {
+  display: flex;
+  list-style: none;
+  padding-right: 100px;
+}
+.navbar-main li {
+  margin-left: 10px;
+  color:black;
+}
+.navbar-main a {
+  text-decoration: none;
+}/*# sourceMappingURL=navbar.css.map */
+.navbar-main li:hover{
+  color: white;
+  transition: color 0.3s ease;
+}

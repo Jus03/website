@@ -1,0 +1,19 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+ @import './navbar.scss';
+@import './first.scss';
+@import './second.scss';
+@import './footer.scss';
+   
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 185px  185px;
+}

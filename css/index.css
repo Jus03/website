@@ -1,0 +1,24 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 185px 100vh 100vh 185px;
+  font-family: 'poppins';
+}
+
+
+.main .second-main {
+  background-color: gray;
+}
+.main .footer-main {
+  background-color: black;
+  
+}/*# sourceMappingURL=index.css.map */

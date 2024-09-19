@@ -1,0 +1,319 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 185px 100vh 100vh 100vh 185px;
+}
+.main .navbar-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.main .navbar-main .name {
+  color: black;
+}
+.main .navbar-main .logo-main {
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+.main .navbar-main .menu-main {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main .navbar-main ul {
+  display: flex;
+  list-style: none;
+  padding-right: 100px;
+}
+.main .navbar-main li {
+  margin-left: 10px;
+  color: black;
+}
+.main .navbar-main a {
+  text-decoration: none;
+}
+.main .first-main {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.main .first-main .left-main {
+  
+  position: relative;
+}
+.main .first-main .left-main .me {
+  border-radius: 55%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  background-color: black;
+  left: 150px;
+}
+.main .first-main .left-main .title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  position: absolute;
+  top: 260px;
+  left: 190px;
+}
+.main .first-main .left-main span {
+  display: block;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.main .first-main .left-main p {
+  font-size: 11px;
+  margin-top: 0;
+  margin-left: 3px;
+}
+.main .first-main .right-main {
+  background-color: khaki;
+  position: relative;
+  line-height: 1;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.main .first-main h2 {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.main .first-main p {
+  display: block;
+  margin-top: 0;
+}
+.main .first-main a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.main .first-main span {
+  text-align: center;
+}
+.main .first-main .circle-container {
+  display: flex;
+  gap: 10px;
+}
+.main .first-main .circle, .main .first-main .circle-2, .main .first-main .circle-3 {
+  background-color: #DC6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.main .first-main .circle {
+  background-color: #DC6F6F;
+}
+.main .first-main .circle-2 {
+  background-color: #6AC1D4;
+}
+.main .first-main .circle-3 {
+  background-color: lightpink;
+}
+.main .first-main .about {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 1.6;
+}
+.main .second-main {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.main .second-main .left-main {
+  padding-left: 60px;
+}
+.main .second-main .left-main .touch {
+  padding-top: 30px;
+}
+.main .second-main .left-main .suggest {
+  margin-top: 0;
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 20px;
+}
+.main .second-main .left-main .opener {
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 22px;
+}
+.main .second-main .left-main .contact {
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 18px;
+}
+.main .second-main .left-main .num {
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 0;
+  padding-left: 23px;
+}
+.main .second-main .left-main .suggest-1 {
+  margin-top: 0;
+  display: inline-block;
+  font-size: 11px;
+  padding-left: 23px;
+}
+.main .second-main .right-main {
+  @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+  /* on hover placeholder */
+}
+.main .second-main .right-main input::-moz-placeholder, .main .second-main .right-main textarea::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:focus::-moz-placeholder, .main .second-main .right-main textarea:focus::-moz-placeholder {
+  color: white;
+}
+.main .second-main .right-main input::-moz-placeholder, .main .second-main .right-main textarea::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input::placeholder, .main .second-main .right-main textarea::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+.main .second-main .right-main input:focus::placeholder, .main .second-main .right-main textarea::focus:placeholder {
+  color: #bbb5af;
+}
+.main .second-main .right-main input::-ms-placeholder, .main .second-main .right-main textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:focus::-ms-placeholder, .main .second-main .right-main textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+.main .second-main .right-main input:hover::-moz-placeholder, .main .second-main .right-main textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:hover:focus::-moz-placeholder, .main .second-main .right-main textarea:hover:focus::-moz-placeholder {
+  color: white;
+}
+.main .second-main .right-main input:hover::-moz-placeholder, .main .second-main .right-main textarea:hover::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:hover::placeholder, .main .second-main .right-main textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:hover:focus::-moz-placeholder, .main .second-main .right-main textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+.main .second-main .right-main input:hover:focus::placeholder, .main .second-main .right-main textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+.main .second-main .right-main input:hover::-moz-placeholder, .main .second-main .right-main textarea:hover::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:hover::placeholder, .main .second-main .right-main textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.main .second-main .right-main input:hover:focus::-ms-placeholder, .main .second-main .right-main textarea:hover::focus:-ms-placeholder {
+  color: white;
+}
+.main .second-main .right-main body {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.main .second-main .right-main header {
+  position: relative;
+  margin: 40px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.main .second-main .right-main #form {
+  position: relative;
+  width: 500px;
+  margin: 20px auto 100px auto;
+  background-color: #A39B9B;
+  color: white;
+}
+.main .second-main .right-main input {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+.main .second-main .right-main input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+.main .second-main .right-main textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+.main .second-main .right-main textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+.main .second-main .right-main #submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+.main .second-main .right-main #submit:hover {
+  color: #e2dedb;
+}
+.main .footer-main {
+  background-color: black;
+}/*# sourceMappingURL=index.css.map */

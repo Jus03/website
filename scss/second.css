@@ -1,0 +1,179 @@
+.second-main {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  
+}
+.second-main .left-main {
+  padding-left: 60px;
+}
+.second-main .left-main .touch {
+  padding-top: 30px;
+}
+.second-main .left-main .suggest {
+  margin-top: 0;
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 20px;
+}
+.second-main .left-main .opener {
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 22px;
+}
+.second-main .left-main .contact {
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 18px;
+}
+.second-main .left-main .num {
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 0;
+  padding-left: 23px;
+}
+.second-main .left-main .suggest-1 {
+  margin-top: 0;
+  display: inline-block;
+  font-size: 11px;
+  padding-left: 23px;
+}
+.second-main .right-main {
+  @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+  /* on hover placeholder */
+}
+.second-main .right-main input::-moz-placeholder, .second-main .right-main textarea::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input:focus::-moz-placeholder, .second-main .right-main textarea:focus::-moz-placeholder {
+  color: white;
+}
+.second-main .right-main input::-moz-placeholder, .second-main .right-main textarea::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input::placeholder, .second-main .right-main textarea::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+.second-main .right-main input:focus::placeholder, .second-main .right-main textarea::focus:placeholder {
+  color: #bbb5af;
+}
+.second-main .right-main input::-ms-placeholder, .second-main .right-main textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+.second-main .right-main input:focus::-ms-placeholder, .second-main .right-main textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+.second-main .right-main input:hover::-moz-placeholder, .second-main .right-main textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+.second-main .right-main input:hover:focus::-moz-placeholder, .second-main .right-main textarea:hover:focus::-moz-placeholder {
+  color: white;
+}
+.second-main .right-main input:hover::-moz-placeholder, .second-main .right-main textarea:hover::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input:hover::placeholder, .second-main .right-main textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input:hover:focus::-moz-placeholder, .second-main .right-main textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+.second-main .right-main input:hover:focus::placeholder, .second-main .right-main textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+.second-main .right-main input:hover::-moz-placeholder, .second-main .right-main textarea:hover::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input:hover::placeholder, .second-main .right-main textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+.second-main .right-main input:hover:focus::-ms-placeholder, .second-main .right-main textarea:hover::focus:-ms-placeholder {
+  color: white;
+}
+.second-main .right-main body {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.second-main .right-main header {
+  position: relative;
+  margin: 40px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.second-main .right-main #form {
+  position: relative;
+  width: 500px;
+  margin: 20px auto 100px auto;
+  background-color: #A39B9B;
+  color: white;
+}
+.second-main .right-main input {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+.second-main .right-main input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+.second-main .right-main textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+.second-main .right-main textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+.second-main .right-main #submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+.second-main .right-main #submit:hover {
+  color: #e2dedb;
+}/*# sourceMappingURL=second.css.map */
